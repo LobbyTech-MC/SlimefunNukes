@@ -54,11 +54,11 @@ public class SlimefunNukes extends JavaPlugin implements SlimefunAddon {
 		
 		//Category setup
 		NamespacedKey categoryId = new NamespacedKey(instance, "sfnukes_category");
-		CustomItemStack categoryItem = new CustomItemStack(Material.TNT, "&6Advanced Weaponry");
+		CustomItemStack categoryItem = new CustomItemStack(Material.TNT, "&6超级武器");
 		ItemGroup category = new ItemGroup(categoryId, categoryItem);
 		
 		NamespacedKey researchId = new NamespacedKey(this, "nukes_research");
-		Research research = new Research(researchId, 1341, "Now I am become Death, the destroyer of worlds", 50);
+		Research research = new Research(researchId, 1341, "现在我死了，我是这个世界的破坏者", 50);
 		
 		List<Map<?, ?>> nukeList = configuration.getMapList("nukes");
 

@@ -2,7 +2,7 @@ blocks-per-second: 10000
 nukes:
   - fuse: 30
     incendiary: false
-    name: '&cNuclear warhead'
+    name: '&c核弹头'
     recipe:
       - COAL_BLOCK
       - IRON_BLOCK
@@ -17,7 +17,7 @@ nukes:
     radius: 16
   - fuse: 45
     incendiary: true
-    name: '&cMedium nuclear warhead'
+    name: '&c中型核弹头'
     recipe:
       - COAL_BLOCK
       - REINFORCED_PLATE
